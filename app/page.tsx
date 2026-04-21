@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import DocTypesSection from "@/components/DocTypesSection";
 import TrustSection from "@/components/TrustSection";
 import NotarySection from "@/components/NotarySection";
 import CTASection from "@/components/CTASection";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <HowItWorks />
+      <DocTypesSection />
       <TrustSection />
       <NotarySection />
       <CTASection />

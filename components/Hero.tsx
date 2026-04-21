@@ -14,23 +14,24 @@ export default function Hero() {
         </div>
 
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-slate-900 tracking-tight leading-[1.05]">
-          Create your legal documents
+          Legal documents,
           <br className="hidden sm:block" />
           <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-indigo-600 bg-clip-text text-transparent">
-            {" "}in minutes
+            {" "}done in minutes
           </span>
         </h1>
 
         <p className="mt-6 text-lg sm:text-xl text-slate-600 max-w-xl mx-auto">
-          Simple. Fast. Notary-ready.
+          From powers of attorney to custom statements — guided, plain-English, and
+          notary-ready.
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
-            href="/form"
+            href="#documents"
             className="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-slate-900/10 hover:shadow-xl transition text-base sm:text-lg"
           >
-            Start Document →
+            Choose a document →
           </Link>
           <Link
             href="#how"
